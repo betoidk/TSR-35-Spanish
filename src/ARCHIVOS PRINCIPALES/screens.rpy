@@ -869,7 +869,7 @@ screen preferences():
                     label _("Language")
                     textbutton _("English") action [Language(None),SetVariable("persistent.lengua",If(persistent.lengua==True,persistent.lengua==False))]
                     textbutton _("Spanish") action [Language("spanish"),SetVariable("persistent.lengua",True)]
-
+                    
             null height (4 * gui.pref_spacing)
 
             hbox:
