@@ -23,7 +23,7 @@ define gui.show_name = True
 
 ## The version of the game.
 
-define config.version = "35"
+define config.version = "36"
 
 # Development Mode
 # If it's set to "True" in a published build, Kardamon was tired
@@ -36,7 +36,12 @@ define config.developer = True
 ## Text that is placed on the game's about screen. To insert a blank line
 ## between paragraphs, write \n\n.
 
-define gui.about = _("The Smoke Room was made possible thanks to our generous supporters on Patreon.\n\n{color=#d9bc8b}A full credits list can be viewed at the end of the game.{/color}\n\nThe Smoke Room ©2024 Goodnight Fellowship, ©2019-2024 Echo Project. All rights reserved.")
+define gui.about = _("""
+The Smoke Room was made possible thanks to our generous supporters on Patreon.\n\n
+{color=#d9bc8b}A full credits list can be viewed at the end of the game.{/color}\n\n
+The Smoke Room ©2024 Goodnight Fellowship, ©2019-2024 Echo Project. All rights reserved.\n\n
+""")
+
 
 ## A short name for the game used for executables and directories in the built
 ## distribution. This must be ASCII-only, and must not contain spaces, colons,
